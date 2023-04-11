@@ -1,94 +1,92 @@
+
 <!DOCTYPE html>
-<head>
-    <title>Hello, World!</title>
-    <style>
-
-        .body {
-            background-color: #F4F4F2;
-            font-family: "Lucida Console", "Courier New", monospace;
-        }
-
-        .container {
-            display: flex;
-            /* border: 2px solid #969696; */
-        }
-
-        .sidebar {
-            height: 88vh;
-            width: 15vw;
-            /* border: 2px solid #969696; */
-        }
-
-        .content {
-            height: 88vh;
-            width: 70vw;
-            /* border: 2px solid #969696; */
-        }
-
-        .footer {
-            width: 100vw;
-            height: 10vh;
-            /* border: 2px solid #969696; */
-            text-align: center;
-            justify-content: center;
-        }
-
-    </style>
-</head>
 <html>
-    <body class="body">
-        <div class="container">
-            <div class="sidebar">
+  <head>
+    <title>Hello, World!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
-            </div>
-            <div class="content">
-                <div style="border-top: dotted;"></div>
-                <div class="container">
-                    <div style="width: 62%";>
-                        <div style="padding-top: 20px;">
-                            <h1>Hi, I'm Seth!</h1>
-                            <p>
-                                I'm a Software and DevOps Engineer currently working for Booz Allen Hamilton. I am also an Officer in the Army National Guard.
-                            </p>
-                        </div>
-                        <div style="padding-top: 20px;">
-                            <h1>About my Experience</h1>
-                            <p>
-                                I have worked with a very wide range of technology stacks and am very passionate about versatility
-                                in technology. 
-                            </p>
-                        </div>
-                    </div>
-                    <div style="width: 38%; text-align: center; justify-content: center;">
-                        <!-- Here is a picture or something -->
-                    </div>
-                </div>
-                <div class="container" style="padding-top: 20px;">
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
 
-                    <div style="width: 50%; text-align: center;">
-                        <h2>Software Developement</h2>
-                        <h3>I currently work with</h3>
-                        <p>C<br>Python<br>JavaScript<br>Java</p>
-                        <h3>But I have also used</h3>
-                        <p>C#<br>C++</p>
-                    </div>
-                    <div style="width: 50%; text-align: center;">
-                        <h2>DevSecOps</h2>
-                        <h3>I currently work with</h3>
-                        <p>AWS<br>GitHub CI/CD<br>Atlassin Suite<br>SQL</p>
-                    </div>
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+    </style>
+  </head>
+<body>
 
-                </div>
-            </div>
-            <div class="sidebar">
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card">
+    <a class="w3-bar-item w3-button w3-wide">SETH FAULKNER</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="seth-resume.pdf" class="w3-bar-item w3-button"><i class="fa fa-file-download"></i> RESUME</a>
+    </div>
+  </div>
+</div>
 
-            </div>
+<!-- About Section -->
+<div class="w3-container" style="padding:109px 16px">
+  <h1 class="w3-center">Hi! I'm Seth</h1>
+  <p class="w3-center w3-large">I'm a Software and DevOps Engineer currently working for Booz Allen Hamilton and an Officer in the Army National Guard.<br>I have worked with a very wide range of technology stacks and am very passionate about versatility in technology.</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-half">
+      <i class="fas fa-code w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Development</p>
+      <p>I have 10+ years of experience working in software development across multiple technology stacks</p>
+    </div>
+    <div class="w3-half">
+      <i class="fas fa-code-pull-request w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">DevOps</p>
+      <p>I have 5+ years of experience with cloud technologies such as AWS and Kubernetes</p>
+    </div>
+  </div>
+</div>
 
-        </div>
-        <div class="container">
-            <div class="footer">
-                <a href="https://github.com/sethfaulkner">My GitHub</a>
-            </div>
-        </div>
-    </body>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Skills</h3>
+      <p>Lorem ipsum ... Just kidding. Here are some of the areas where I have worked to hone my skills.</p>
+      <p>Feel free to check out my resume for more details about my experience.</p>
+    </div>
+     <div class="w3-col m6">
+      <p class="w3-wide"><i class="fas fa-code-branch w3-margin-right"></i>Development in Python and C</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fas fa-cloud w3-margin-right"></i>AWS</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide"><i class="fas fa-dharmachakra w3-margin-right"></i>Docker and Kubernetes</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide"><i class="fas fa-code-branch w3-margin-right"></i>Development in JavaScript and Java</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="w3-center w3-black w3-padding-64">
+  <div class="w3-xlarge w3-section">
+    <a href="https://github.com/sethfaulkner"><i class="fa-brands fa-github w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/seth-faulkner-38322184/"><i class="fa-brands fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</footer>
+</body>
 </html>
